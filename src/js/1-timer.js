@@ -72,7 +72,7 @@ const options = {
         color: '#EF4040',
         position: 'topRight',
         displayMode: 1,
-        iconUrl: '../img/x.svg',
+        iconUrl: './img/x.svg',
       });
     } else {
       startButton.disabled = false;
