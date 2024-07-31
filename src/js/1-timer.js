@@ -2,6 +2,7 @@
 
 import flatpickr from 'flatpickr';
 import iziToast from 'izitoast';
+import svgUrlX from '../img/x.svg';
 
 const dateTime = document.querySelector('input#datetime-picker');
 const startButton = document.querySelector('button[data-start]');
@@ -72,7 +73,7 @@ const options = {
         color: '#EF4040',
         position: 'topRight',
         displayMode: 1,
-        iconUrl: '../img/x.svg',
+        iconUrl: `${svgUrlX}`,
       });
     } else {
       startButton.disabled = false;

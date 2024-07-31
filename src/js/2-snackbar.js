@@ -1,4 +1,7 @@
 'use strict';
+
+import svgUrlOK from '../img/ok.svg';
+import svgUrlX from '../img/x.svg';
 import iziToast from 'izitoast';
 
 const form = document.querySelector('form');
@@ -28,7 +31,7 @@ form.addEventListener('submit', event => {
         color: '#59a10d',
         position: 'topRight',
         displayMode: 1,
-        iconUrl: '../img/ok.svg',
+        iconUrl: `${svgUrlOK}`,
       });
     })
     .catch(error => {
@@ -40,7 +43,7 @@ form.addEventListener('submit', event => {
         color: '#EF4040',
         position: 'topRight',
         displayMode: 1,
-        iconUrl: '../img/x.svg',
+        iconUrl: `${svgUrlX}`,
       });
     });
   form.reset();
