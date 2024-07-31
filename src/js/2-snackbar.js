@@ -28,7 +28,7 @@ form.addEventListener('submit', event => {
         color: '#59a10d',
         position: 'topRight',
         displayMode: 1,
-        iconUrl: './img/ok.svg',
+        iconUrl: '../img/ok.svg',
       });
     })
     .catch(error => {
@@ -40,7 +40,7 @@ form.addEventListener('submit', event => {
         color: '#EF4040',
         position: 'topRight',
         displayMode: 1,
-        iconUrl: './img/x.svg',
+        iconUrl: '../img/x.svg',
       });
     });
   form.reset();
